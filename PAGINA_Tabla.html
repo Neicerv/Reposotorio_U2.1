@@ -1,0 +1,87 @@
+<!DOCTYPE html><!--Inicia la estructura de la pagina-->
+<html>
+ <head>
+ <meta charset="utf-8"> <!--Leinguaje de la pagina-->
+ <title>Pagina principal</title><!--Titulo de la pagina web-->
+ </head>
+ <body><!--Cuerpo de la pagina-->
+ <p><H3>La empresa necesita enlistar la siguiente información: </H3></p><!--cabecera de la pagina-->
+ <table>
+  <caption><h4>Tabla:</h4></caption>
+
+  <table border="5">
+  <thead><!--Filas de la pagina-->
+    
+    <tr>
+      <th>N° de socio</th>
+      <th>Apellidos</th>
+      <th>Nombres</th>
+      <th>Ciudad</th>
+      <th>Fecha Inicio</th>
+    </tr>
+  </thead>
+  <tr><!--columnas de la pagina-->
+      <td><center>2423</center></td>
+      <td>Pérez Martínez</td>
+      <td>Juan José</td>
+      <td>Portoviejo</td>
+      <td>2022-11-01</td>
+  </tr>
+  <tr><!--columnas de la pagina-->
+      <td><center>4438</center></td>
+      <td>Martínez Gómez</td>
+      <td>María Beatriz</td>
+      <td>Manta</td>
+      <td>2022-01-01</td>
+  </tr>
+  <tr><!--columnas de la pagina-->
+      <td><center>4334</center></td>
+      <td>Gómez Rodríguez</td>
+      <td>Carlos Alberto</td>
+      <td>Chone</td>
+      <td>2022-05-01</td>
+  </tr>
+  <tr><!--columnas de la pagina-->
+      <td><center>4523</center></td>
+      <td>Rodríguez Moreno</td>
+      <td>Sofía Ana</td>
+      <td>Bahía</td>
+      <td>2022-11-01</td>
+      
+          </table><!--Fin de la tabla-->
+          
+          <p1><BR><BR><BR><h4>Llene los datos por favor:</p1></H4> <!--parrafo-->
+           
+          <FORM name="form" action="guardar.php" method="post"><!--inicion del formulario su nombre,
+             a donde ira la informacion y el metodo con el cual guardara la informacion-->
+            <P>
+            <LABEL for="nombre">Nombres: </LABEL><!--Campo nombres, oblicatorio-->
+                      <INPUT type="text" name="nombres" id="nombres"required><BR><BR>
+            <LABEL for="apellido">Apellidos: </LABEL> <!--Campo apellidos, oblicatorio-->
+                      <INPUT type="text" name="apellidos" id="apellido"required><BR><BR>
+            <LABEL for="ciudad">Ciudad: </LABEL> <!--Campo ciudad, oblicatorio-->
+                      <INPUT type="text" name="ciudad" id="ciudad"required><BR><BR>
+            <LABEL for="fecha">Fecha inicio: </LABEL><!--Campo fecha, oblicatorio-->
+                      <input type="date" name="fecha"required><BR><BR>
+            <LABEL for="imagen">Imagen: </LABEL><!--Campo foto, oblicatorio-->
+                      <INPUT accept="image/png,image/jpeg,image/pdf" type="file" name="imagen"required/><BR><BR>
+            <LABEL for="comprobante">Comprobante de pago: </LABEL><!--Campo comprobante, oblicatorio-->
+                        <INPUT type="file" name="comprobante"required/><BR><BR> <!--Boton resetear y enviar-->
+            <INPUT type="submit" value="Enviar"> <INPUT type="reset">
+            </P>
+          </FORM>
+
+
+      <link href="git remote add origin https://github.com/Neicerv/Reposotorio_U2.1.git821" rel="stylesheet" type="text/css"><!--Link hacia el repositorio git_hub-->
+
+<p>Enlace a
+  <a href="https://www.google.com"
+   title="Link hacia el repositorio git_hub">git_hub</a>.
+  </p>
+ </body>
+ <footer><!--pie de la pagina--></footer>
+</html>
+
+     
+      
+        
