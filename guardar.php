@@ -1,5 +1,5 @@
 <?php
-
+/*inicio de la recoleccion de datos*/
 $nombres=$_POST['nombres'];
 $apellidos=$_POST['apellidos'];
 $ciudad=$_POST['ciudad'];
@@ -7,6 +7,7 @@ $fecha=$_POST['fecha'];
 $imagen=$_POST['imagen'];
 $comprobante=$_POST['comprobante'];
 
+/*Mostrando los datos obtenidos*/
 echo "Datos obtenidos";
 echo "Nombres: $nombres";
 echo "<br>";
