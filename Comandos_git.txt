@@ -3,7 +3,8 @@ Comandos utilizados para iniciar el git y subir el proyecto al repositorio
 git init
 git status
 git log
-git add.
+git add .
 git commit -m "se ha iniciado git en este repositorio"
 git remote add origin https://github.com/Neicerv/Reposotorio_U2.1.git
+git branch -M main
 git push -u origin main
